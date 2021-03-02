@@ -34,7 +34,7 @@ func ErrorLog(Processo, Message string) {
 //DebugLog is the funcion for log
 func DebugLog(Processo, Message string) {
 
-	c := color.New(color.FgRed)
+	c := color.New(color.FgGreen)
 	c.Printf("[%v ] - DEBUG \t - %s - %s \n", time.Now().Format("2006/01/02 - 03:04:05 PM"), Processo, Message)
 
 }
